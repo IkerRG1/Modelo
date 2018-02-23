@@ -1,0 +1,6 @@
+s = str(input('Escribe una frase:'))
+l = str(input('Escribe la letra que quieres buscar:'))
+lugar = (s.find(l))
+cadena2 = (s[(lugar)+1:])
+print(s[(lugar)+1:])
+print(cadena2.find(l)+(lugar+1))

@@ -1,0 +1,10 @@
+s = str(input('Escribe una frase:'))
+l = str(input('Escribe la letra que quieres buscar:'))
+
+primero = (s.find(l))
+ultimo = (s.rfind(l))
+
+if(primero == -1):
+  print('')
+else:
+  print(primero, ultimo)
