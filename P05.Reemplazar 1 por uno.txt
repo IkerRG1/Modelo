@@ -1,0 +1,2 @@
+cadena = input('Dime una frase con el número 1 tantas veces como quieras.')
+print(cadena.replace('1', 'uno'))

@@ -1,0 +1,2 @@
+cadena = input('Dime una frase con el símbolo @:')
+print(cadena.replace('@', ''))
