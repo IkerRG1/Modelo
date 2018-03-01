@@ -1,0 +1,7 @@
+cadena = ('¿Sabes si hay mucha hierba en el parque?')
+print(cadena)
+h1 = cadena.find('h')
+print('primera h está en' + ' ' + str(h1))
+h2 = cadena.rfind('h')
+print('última h está en' + ' ' + str(h2))
+print((cadena[h1:h2+1]))
